@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background-color: aliceblue;
+}
+
+.qr-code>img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.card-container{
+    width: 330px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    padding: 15px;
+}
+
+.content-head{
+    margin: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.content-container{
+    text-align: center;
+}
+
+.content-body{
+    color: rgba(0, 0, 0, 0.425)
+}
